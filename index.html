@@ -2,32 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="res/css/style.css">
     <link rel="icon" href="res/images/favicon.ico">
     <title>Hello world!</title>
 </head>
 
 <body>
 <header>
-    <strong>Welcome to your dashboard!</strong>
-</header>
 
-<section>
-    <div>
-        <img src="res/images/me.png" alt="My picture" title="Not really my picture">
+    <div class="picture">
+        <img src="res/images/me.png" alt="Profile Pic" title="Not really my picture" ID="Pic">
     </div>
+    <strong>Welcome to your dashboard!</strong>
     <div>
-        <ol>
+        <ol class="info">
             <li>John Doe</li>
             <li>27/06/1993</li>
             <li>Software Engineering</li>
         </ol>
     </div>
-    <div>
-        <strong>2.65</strong>
+    <div id="average">
+    <strong style="color: darkred">2.6</strong>
     </div>
-</section>
 
-<section>
+</header>
+
+<section class="main">
     <h1>
         <span>Courses</span>
     </h1>
@@ -70,14 +70,9 @@
 </section>
 
 <footer>
-    <ul>
-        <li>
-            <a href="https://ois2.ut.ee/">OIS</a>
-        </li>
-        <li>
-            <a href="https://courses.cs.ut.ee/">Courses</a>
-        </li>
-    </ul>
+    <a href="https://ois2.ut.ee/">OIS</a>
+    <a href="https://courses.cs.ut.ee/">Courses</a>
+
 </footer>
 </body>
 </html>

@@ -1,0 +1,41 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    background: lightsteelblue;
+}
+header{
+    display: flex;
+    align-items: center;
+    background: lightsteelblue;
+}
+header div{
+    padding: 10px;
+}
+
+#Pic{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 30px;
+}
+.info{
+    margin-left: 30px;
+}
+#average{
+    margin-left: 30px;
+}
+.main{
+    padding: 20px;
+}
+tbody > tr {
+   color: crimson;
+}
+tr td{
+    padding: 10px;
+}
+h1+table{
+    padding: 10px;
+}
+html footer {
+    text-align: center;
+    margin: 20px;
+}
